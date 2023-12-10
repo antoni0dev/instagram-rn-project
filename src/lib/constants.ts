@@ -8,3 +8,9 @@ export const BUTTON_VARIANTS = {
   SECONDARY: 'secondary',
   TERTIARY: 'tertiary',
 } as const;
+
+export const PERMISSION_STATUSES = {
+  SUCCESS: 'SUCCESS',
+  DENIED: 'DENIED',
+  LOADING: 'LOADING',
+} as const;
